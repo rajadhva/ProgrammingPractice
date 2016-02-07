@@ -378,6 +378,7 @@ public class BinarySearchTree {
 			e.printStackTrace();
 		}
 		inOrder(myTree.getRoot());
+		preOrder(myTree.getRoot());
 	}
 
 }
